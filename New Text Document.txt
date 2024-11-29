@@ -1,0 +1,9 @@
+const firebaseConfig = {
+    apiKey: "AIzaSyByF4dko6o7aIk-UV-Fvg5vZTr-3qdEybE",
+    authDomain: "letschat-d284a.firebaseapp.com",
+    projectId: "letschat-d284a",
+    storageBucket: "letschat-d284a.firebasestorage.app",
+    messagingSenderId: "961555388673",
+    appId: "1:961555388673:web:f6329669a99458ab13e300",
+    measurementId: "G-HLCV3P8Y1P"
+  };

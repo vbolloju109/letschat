@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="auth-section">
+        <h1>Chat App</h1>
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <button id="signup-btn">Sign Up</button>
+        <button id="login-btn">Login</button>
+        <div id="auth-error" class="error"></div>
+    </div>
+
+    <div id="chat-section" style="display: none;">
+        <h2>Welcome, <span id="current-user"></span></h2>
+        <div id="chat-window"></div>
+        <input type="text" id="receiver" placeholder="Send to (email)">
+        <input type="text" id="message-input" placeholder="Type a message">
+        <button id="send-btn">Send</button>
+        <button id="logout-btn">Logout</button>
+        <div id="chat-error" class="error"></div>
+    </div>
+
+    <!-- Firebase Libraries -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore-compat.js"></script>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
